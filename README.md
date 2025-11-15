@@ -1,5 +1,7 @@
 # TinyPLC
 
+NOTE: This project is under construction. Do not expect everything to work just yet.
+
 ## What is it?
 This project provides a small and easy-to-use open-source PLC (programmable logic controller) hardware / software platform intended for small automation and control tasks, built around a Raspberry Pi Pico 2W.
 
