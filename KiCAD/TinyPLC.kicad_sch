@@ -1,0 +1,380 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ada016db-090f-4a32-acd7-50723e9f8701")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 121.92 36.83) (xy 128.27 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b70096c-5d2e-4ea3-80de-d59ceb414386")
+	)
+	(wire
+		(pts
+			(xy 85.09 36.83) (xy 91.44 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fe1e281-2a3f-4a12-b2c9-fe9cf80a24d0")
+	)
+	(wire
+		(pts
+			(xy 85.09 41.91) (xy 91.44 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "710f21fb-77eb-4d08-b3b2-a35a3d214e8c")
+	)
+	(wire
+		(pts
+			(xy 121.92 39.37) (xy 128.27 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ccf341a-d95f-4f85-b893-ef69a0c40bdd")
+	)
+	(wire
+		(pts
+			(xy 85.09 44.45) (xy 91.44 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab530726-9237-4d5e-a44e-ec1f81e8d292")
+	)
+	(wire
+		(pts
+			(xy 85.09 39.37) (xy 91.44 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9ab5b21-a9fe-4ff8-bdc4-8dd1d373b196")
+	)
+	(wire
+		(pts
+			(xy 121.92 44.45) (xy 128.27 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e793464c-7c4e-4d74-9388-9ebeac194f6e")
+	)
+	(wire
+		(pts
+			(xy 121.92 41.91) (xy 128.27 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc1b6f40-2cd3-44e1-a9e7-b6525362f25c")
+	)
+	(sheet
+		(at 54.61 33.02)
+		(size 30.48 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "42666c88-3bf7-4126-b910-7303b96f4d82")
+		(property "Sheetname" "Inputs"
+			(at 54.61 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TinyPLC_Inputs.kicad_sch"
+			(at 54.61 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN1_CPU" output
+			(at 85.09 36.83 0)
+			(uuid "d476a8d7-2ec1-49a6-b556-4858acd9b4ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN2_CPU" output
+			(at 85.09 39.37 0)
+			(uuid "faec1e7d-1392-48fb-8e25-8de4d633c2ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN3_CPU" output
+			(at 85.09 41.91 0)
+			(uuid "e2cd9d05-e8d0-4f85-86db-5c81211a5ea9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN4_CPU" output
+			(at 85.09 44.45 0)
+			(uuid "f70dcda5-8ffb-4c22-a413-b4e23e120caf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "TinyPLC"
+				(path "/ada016db-090f-4a32-acd7-50723e9f8701"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 91.44 33.02)
+		(size 30.48 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "85bf5c46-9ced-4672-9379-7fe906ccef4b")
+		(property "Sheetname" "Controller"
+			(at 91.44 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TinyPLC_Controller.kicad_sch"
+			(at 91.44 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN1_CPU" input
+			(at 91.44 36.83 180)
+			(uuid "192e6767-3520-4fce-8dca-b690cce60acf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN2_CPU" input
+			(at 91.44 39.37 180)
+			(uuid "ea17f785-f8fe-45a5-8ba6-fadff7a28a98")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN3_CPU" input
+			(at 91.44 41.91 180)
+			(uuid "21cb4ffc-bef2-4d55-aa90-f141d942c7f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN4_CPU" input
+			(at 91.44 44.45 180)
+			(uuid "bbb383a8-2868-440f-a7b7-8a77247cbde0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "REL1" output
+			(at 121.92 36.83 0)
+			(uuid "068db71d-47c0-4934-a140-11199e363e79")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "REL2" output
+			(at 121.92 39.37 0)
+			(uuid "03ef0d21-8fa2-4c6a-bc84-f7b2ec26af50")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "REL3" output
+			(at 121.92 41.91 0)
+			(uuid "aa83fe26-7920-4d1a-b23b-289722e6f144")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "REL4" output
+			(at 121.92 44.45 0)
+			(uuid "364856c1-00c9-4e1b-a17b-a225bbbcd890")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "TinyPLC"
+				(path "/ada016db-090f-4a32-acd7-50723e9f8701"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 128.27 33.02)
+		(size 30.48 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b627cc62-0a75-4fb0-a84f-3edf2b7b280d")
+		(property "Sheetname" "Outputs"
+			(at 128.27 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TinyPLC_Outputs.kicad_sch"
+			(at 128.27 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "REL1" input
+			(at 128.27 36.83 180)
+			(uuid "a518df85-e0e4-4a5a-8aea-b043f6ca220a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "REL2" input
+			(at 128.27 39.37 180)
+			(uuid "92321bd9-6ba8-4d8f-913c-987687a717f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "REL3" input
+			(at 128.27 41.91 180)
+			(uuid "ecf6e5e3-2716-4ef8-b550-2798451e7d01")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "REL4" input
+			(at 128.27 44.45 180)
+			(uuid "0b1ea9df-6e5d-406e-a546-45caaeb2e20b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "TinyPLC"
+				(path "/ada016db-090f-4a32-acd7-50723e9f8701"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
