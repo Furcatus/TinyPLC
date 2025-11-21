@@ -1,0 +1,4 @@
+# Specify filepatterns you want git to ignore.
+KiCAD/TinyPLC-backups/*
+KiCAD/*.kicad_prl
+KiCAD/fp-info-cache
